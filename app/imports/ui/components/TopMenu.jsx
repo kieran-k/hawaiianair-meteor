@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Image, Menu, Dropdown, Icon } from 'semantic-ui-react';
+import { Grid, Image, Menu, Dropdown, Header, Icon } from 'semantic-ui-react';
 
 export default class TopMenu extends React.Component {
   render() {
@@ -28,16 +28,16 @@ export default class TopMenu extends React.Component {
           <Grid.Row>
             <Menu borderless className="middlemenu">
               <Menu.Menu position='right'>
-                <Menu.Item position="right"><h3>Book</h3></Menu.Item>
-                <Menu.Item><h3>Manage Flights</h3></Menu.Item>
-                <Menu.Item><h3>Our Island</h3></Menu.Item>
-                <Menu.Item><h3>Island Guide</h3></Menu.Item>
+                <Menu.Item position="right"><Header as='h3'>Book</Header></Menu.Item>
+                <Menu.Item><Header as='h3'>Manage Flights</Header></Menu.Item>
+                <Menu.Item><Header as='h3'>Our Island</Header></Menu.Item>
+                <Menu.Item><Header as='h3'>Island Guide</Header></Menu.Item>
                 <Menu.Item>
                   <Image size="small" src="https://css.s-hawaiianairlines.com/Content/assets/images/logos/hm-logo-hawaiianmiles@2x.png"/>
                 </Menu.Item>
-                <Menu.Item><h3>Search</h3></Menu.Item>
-                <Menu.Item fitted><h3>|</h3></Menu.Item>
-                <Menu.Item><h3>Join Now</h3></Menu.Item>
+                <Menu.Item><Header as='h3'>Search</Header></Menu.Item>
+                <Menu.Item fitted><Header as='h3'>|</Header></Menu.Item>
+                <Menu.Item><Header as='h3'>Join Now</Header></Menu.Item>
               </Menu.Menu>
             </Menu>
           </Grid.Row>

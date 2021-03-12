@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Menu, Icon, Segment, Form } from 'semantic-ui-react';
+import { Grid, Menu, Icon, Segment, Form, Button } from 'semantic-ui-react';
 
 export default class Background extends React.Component {
   state = { activeItem: 'Flights' }
@@ -30,7 +30,7 @@ export default class Background extends React.Component {
                   <Form.Group widths='equal'>
                     <Form.Input placeholder='from:   City, Airport or Island' width={6}/>
                     <Form.Input placeholder='to:  City, Airport or Island' width={5} />
-                    <button className="ui button">Next <Icon name='right arrow' /></button>
+                    <Button> Next <Icon name='right arrow' /></Button>
                   </Form.Group>
                 </Form>
               </Segment>

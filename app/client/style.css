@@ -84,7 +84,6 @@ p {
 }
 
 .ui.tabular.menu+.attached:not(.top).segment, .ui.tabular.menu+.attached:not(.top).segment+.attached:not(.top).segment {
-    border-top: none;
     margin-left: 100px;
     margin-right: 100px;
     width: 55%;
